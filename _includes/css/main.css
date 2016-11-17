@@ -78,6 +78,14 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
+.feature-item i {
+    font-size: 80px;
+    background: -webkit-linear-gradient(to left, #D84314, #D84314);
+    background: linear-gradient(to left, #D84314, #D84314);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 header {
     text-align: center;
