@@ -22,7 +22,11 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.primary-rgb }};
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: white;
+     background-color: #{{ site.color.secondary-dark }} !important;
 }
 
 h1,
