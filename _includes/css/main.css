@@ -26,8 +26,14 @@ a.active {
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: white;
-     background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.secondary-dark }} !important;
 }
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: white;
+    background-color:  #{{ site.color.secondary-dark }} !important;
+}
+
 
 h1,
 h2,
